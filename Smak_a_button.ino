@@ -1,9 +1,13 @@
+// IMPORTANT!
+// DOWNLOAD the MD_Parola library
+// https://github.com/MajicDesigns/MD_Parola
+
 
 #include <stdio.h>
 #include <MD_Parola.h>
 #include <MD_MAX72xx.h>
 #include <SPI.h>
-#include "Parola_Fonts_data.h"
+//#include "Parola_Fonts_data.h"
 #define HARDWARE_TYPE MD_MAX72XX::PAROLA_HW
 #define MAX_DEVICES 8
 #define CLK_PIN   13
