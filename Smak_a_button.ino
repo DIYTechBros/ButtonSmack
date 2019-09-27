@@ -61,7 +61,7 @@ void setup()
 
 void loop()
 {
-  if(p1_score <= 100 and p2_score <= 100) {
+  if(p1_score < 100 and p2_score < 100) {
     
     step_counter++;
     bool step_action = false;
